@@ -1,0 +1,45 @@
+:root {
+  color-scheme: light;
+  --background: #F6F1E9;
+  --surface: #FFFDF9;
+  --text-primary: #2D2722;
+  --text-secondary: #67594F;
+  --primary: #795039;
+  --border: #C8B8A7;
+  --primary-soft: #D6C0AA;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  color: var(--text-primary);
+  background: var(--background);
+  line-height: 1.7;
+  -webkit-text-size-adjust: 100%;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
+p, h1, h2, dl, dd { margin: 0; }
+.site-header { width: min(100%, 72rem); margin-inline: auto; padding: 2rem 1.5rem; }
+.wordmark { color: var(--primary); font-size: 1.125rem; font-weight: 650; letter-spacing: .12em; }
+main { flex: 1; display: grid; place-items: center; padding: 3.5rem 1.5rem 5rem; }
+.introduction { width: min(100%, 42rem); text-align: center; }
+.motto { color: var(--primary); font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.25rem, 3vw, 1.625rem); }
+h1 { margin-top: 1.5rem; font-size: clamp(1.625rem, 4.3vw, 2.75rem); line-height: 1.5; letter-spacing: -.04em; font-weight: 600; word-break: keep-all; overflow-wrap: anywhere; }
+.description { max-width: 31rem; margin: 1.5rem auto 0; color: var(--text-secondary); font-size: 1rem; word-break: keep-all; overflow-wrap: anywhere; }
+.availability { display: inline-block; margin-top: 2rem; padding: .4rem 1rem; border: 1px solid var(--primary-soft); border-radius: 2rem; color: var(--primary); font-size: .875rem; }
+.site-footer { background: var(--surface); border-top: 1px solid var(--border); padding: 1.75rem 1.5rem 2rem; }
+.footer-inner { max-width: 64rem; margin-inline: auto; }
+h2 { margin-bottom: .875rem; font-size: .9375rem; font-weight: 600; }
+.business-info { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem 2rem; font-size: .9375rem; }
+.business-info > div { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: .5rem; }
+dt { color: var(--text-secondary); }
+dd { overflow-wrap: anywhere; }
+.support { margin-top: 1.25rem; color: var(--text-secondary); font-size: .875rem; }
+a { margin-left: .5rem; color: var(--primary); text-underline-offset: .2em; overflow-wrap: anywhere; }
+a:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; border-radius: 2px; }
+@media (max-width: 48rem) {
+  .business-info { grid-template-columns: 1fr; }
+}
+@media (max-width: 24rem) {
+  .site-header, .site-footer { padding-inline: 1.25rem; }
+  main { padding-inline: 1.25rem; }
+  .business-info > div { grid-template-columns: 6.5rem minmax(0, 1fr); }
+}
