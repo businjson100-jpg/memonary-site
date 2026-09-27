@@ -1,0 +1,17 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "kr.memonary.app",
+      "sha256_cert_fingerprints": [
+        "63:A5:4F:81:18:54:CB:1F:70:14:91:23:D3:9F:D0:2A:77:8C:EA:38:FF:88:05:B5:B1:E9:EA:23:7D:6B:36:C4",
+        "94:12:20:82:D5:95:F2:34:8E:2B:04:47:72:13:52:04:3F:B4:11:C3:FB:D8:BF:8A:1F:0F:E3:5E:89:60:86:E1",
+        "09:82:5C:19:E4:77:04:9D:83:75:CA:24:E0:D6:0D:46:13:B8:DB:8F:58:DE:AC:7E:BE:FD:48:EB:53:01:B3:E1"
+      ]
+    }
+  }
+]
