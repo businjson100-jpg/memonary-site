@@ -13,5 +13,17 @@
         "09:82:5C:19:E4:77:04:9D:83:75:CA:24:E0:D6:0D:46:13:B8:DB:8F:58:DE:AC:7E:BE:FD:48:EB:53:01:B3:E1"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "kr.memonary.app",
+      "sha256_cert_fingerprints": [
+        "A0:A0:CF:CC:55:14:13:9D:15:29:19:CD:D7:F0:56:D8:02:CB:8E:38:E9:7A:38:44:0B:33:96:B0:21:09:A9:B6"
+      ]
+    }
   }
 ]
