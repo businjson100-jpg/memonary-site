@@ -25,3 +25,6 @@ styles.css
 support/index.html
 terms/index.html
 ui.css
+install-config.js
+download/index.html
+download/download.js

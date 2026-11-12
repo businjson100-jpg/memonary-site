@@ -3,5 +3,17 @@
     "apps": [
       "22KDPAL8BL.kr.memonary.app"
     ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "22KDPAL8BL.kr.memonary.app",
+        "paths": [
+          "/download",
+          "/download/"
+        ]
+      }
+    ]
   }
 }
