@@ -28,3 +28,4 @@ ui.css
 install-config.js
 download/index.html
 download/download.js
+app-access/google/index.html
